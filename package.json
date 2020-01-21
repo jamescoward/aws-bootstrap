@@ -1,0 +1,18 @@
+{
+  "name": "aws-bootstrap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "pm2 start ./server.js --name hello_aws --log ../logs/app.log",
+    "stop": "pm2 stop hello_aws",
+    "build": "echo 'Building...'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pm2": "^4.2.3"
+  }
+}
